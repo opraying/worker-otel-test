@@ -2,10 +2,23 @@ main = "src/index.ts"
 
 compatibility_date = "2024-09-02"
 
-compatibility_flags = []
+compatibility_flags = ["nodejs_compat"]
 
 [observability]
 enabled = true
 
 [placement]
 mode = "smart"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "707b7771abdc4d5da5af49b44e645175"
+
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "bucket"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "db"
+database_id = "dfcfee3d-ca46-454d-99d5-87a12d68bbc1"
