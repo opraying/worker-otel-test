@@ -22,3 +22,6 @@ bucket_name = "test-otel-bucket"
 binding = "DB"
 database_name = "test-otel-d1"
 database_id = "69dc4b67-52ce-48d2-8f4d-05328bd901f4"
+
+[env.production.vars]
+OTEL_HOST = "https://otel.baselime.io"
