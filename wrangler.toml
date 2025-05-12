@@ -12,13 +12,13 @@ mode = "smart"
 
 [[kv_namespaces]]
 binding = "KV"
-id = "707b7771abdc4d5da5af49b44e645175"
+id = "824d7f1ff2ce43b1a00333897e46bf55"
 
 [[r2_buckets]]
 binding = "R2"
-bucket_name = "bucket"
+bucket_name = "test-otel-bucket"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "db"
-database_id = "dfcfee3d-ca46-454d-99d5-87a12d68bbc1"
+database_name = "test-otel-d1"
+database_id = "69dc4b67-52ce-48d2-8f4d-05328bd901f4"
